@@ -1,0 +1,110 @@
+/* SLIDERS */
+#sliderPortafolio-01{
+    margin-bottom: 50px;
+}
+
+.slider-portafolio-01.carousel-inner{
+    display: block;
+    padding: 0px 0px 30px 0px;
+    height: 530px;
+    @media screen and (max-width: $window-size-lg) {
+        height: 470px;
+    }
+    @media screen and (max-width: $window-size-md) {
+        height: 890px;
+    }
+    // @media screen and (max-width: $window-size-sm) {
+    //     height: 890px;
+    //     padding: 0px 0px 0px 0px;
+    // }
+    // @media screen and (max-width: 720px) {
+    //     height: 850px;
+    // }
+    // @media screen and (max-width: 690px) {
+    //     height: 840px;
+    // }
+    // @media screen and (max-width: 660px) {
+    //     height: 820px;
+    // }
+    // @media screen and (max-width: 630px) {
+    //     height: 800px;
+    // }
+
+    // @media screen and (max-width: $window-size-xs) {
+    //     height: 790px;
+    // }
+    // @media screen and (max-width: $window-size-xs-02) {
+    //     height: 760px;
+    // }
+}
+
+.slider-portafolio-01.carousel-indicators{
+    position: static;
+    margin-top: 15px;
+    width: 100%;
+    margin-left:0px;
+    margin-right:0px;
+    li{
+        margin: 0px 7.5px 0px 7.5px;
+        border-radius: 10px;
+    }
+    li.active{
+        margin: 0px 7.5px 0px 7.5px;
+        padding-bottom: 5px;
+        // border-bottom: 1px solid $color03;
+        box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+        border-radius: 10px;
+        @media screen and (max-width: $window-size-md) {
+            padding-bottom: 0px;
+        }
+    }
+    li:nth-child(1){
+        width: 100%;
+        height: 80px;
+        background: url('../images/psa-logo-slide.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 180px auto;
+        @media screen and (max-width: $window-size-md) {
+            background-size: 100% auto;
+        }
+    }
+    li:nth-child(2){
+        width: 100%;
+        height: 80px;
+        background: url('../images/ga-logo-slide.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 180px auto;
+        @media screen and (max-width: $window-size-md) {
+            background-size: 100% auto;
+        }
+    }
+    li:nth-child(3){
+        width: 100%;
+        height: 80px;
+        background: url('../images/adp-logo-slide.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 180px auto;
+        @media screen and (max-width: $window-size-md) {
+            background-size: 100% auto;
+        }
+    }
+    li:nth-child(4){
+        width: 100%;
+        height: 80px;
+        background: url('../images/ysl-logo-slide.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 180px auto;
+        @media screen and (max-width: $window-size-md) {
+            background-size: 100% auto;
+        }
+    }
+    @media screen and (max-width: $window-size-sm) {
+        margin-top: 0px;
+    }
+
+}
+

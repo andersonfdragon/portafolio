@@ -1,0 +1,128 @@
+/* BOTONES */
+.content-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-portafolio-01{
+    display: inline-block;
+    color: $blanco;
+    border: 1px solid $blanco;
+    padding: 7px 40px;
+    border-radius: 50px;
+    text-align: center;
+    opacity:.7;
+    font-size: $tx-size-05;
+    span{
+        margin-left: 15px;
+        @media screen and (max-width: $window-size-sm) {
+            margin-left: 7px;
+            i{
+                font-size: $tx-size-06;
+            }
+        }
+    }
+    &:focus{
+        text-decoration: none;
+        color: $blanco;
+        border: 1px solid $blanco;
+        opacity:1;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $blanco;
+        border: 1px solid $blanco;
+        opacity:1;
+        transition: .2s;
+    }
+    @media screen and (max-width: $window-size-xl) {
+        font-size: $tx-size-06;
+        padding: 5px 30px;
+    }
+    @media screen and (max-width: $window-size-xs) {
+        opacity:1;
+    }
+}
+.btn-portafolio-02{
+    display: inline-block;
+    // color: $color04;
+    color: $blanco;
+    border: 1px solid $color04;
+    padding: 7px 40px;
+    border-radius: 50px;
+    text-align: center;
+    opacity:.7;
+    background: $gradient04;
+    font-size: $tx-size-05;
+    span{
+        margin-left: 15px;
+        @media screen and (max-width: $window-size-sm) {
+            margin-left: 7px;
+            i{
+                font-size: $tx-size-06;
+            }
+        }
+    }
+    &:focus{
+        text-decoration: none;
+        color: $blanco;
+        border: 1px solid $color04;
+        opacity:1;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $blanco;
+        border: 1px solid $color04;
+        opacity:1;
+        transition: .2s;
+    }
+    @media screen and (max-width: $window-size-xl) {
+        font-size: $tx-size-06;
+        padding: 5px 30px;
+    }
+    @media screen and (max-width: $window-size-xs) {
+        opacity:1;
+    }
+}
+
+.btn-portafolio-03{
+    display: inline-block;
+    color: $blanco;
+    border: none;
+    padding: 7px 40px;
+    border-radius: 50px;
+    text-align: center;
+    opacity:.7;
+    background: $gradient04;
+    font-size: $tx-size-05;
+    span{
+        margin-left: 15px;
+        @media screen and (max-width: $window-size-sm) {
+            margin-left: 7px;
+            i{
+                font-size: $tx-size-06;
+            }
+        }
+    }
+    &:focus{
+        text-decoration: none;
+        color: $blanco;
+        opacity:1;
+        outline: none;
+    }
+    &:hover{
+        text-decoration: none;
+        color: $blanco;
+        opacity:1;
+        transition: .2s;
+        outline: none;
+    }
+    @media screen and (max-width: $window-size-xl) {
+        font-size: $tx-size-06;
+        padding: 5px 30px;
+    }
+    @media screen and (max-width: $window-size-xs) {
+        opacity:1;
+    }
+}

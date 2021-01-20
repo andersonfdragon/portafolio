@@ -1,0 +1,42 @@
+/*FORMULARIO*/
+.estilo-formulario{
+    background: $gris;
+    padding: 50px 40px 20px 40px;
+    border-radius: 20px;
+    @media screen and (max-width: $window-size-sm) {
+        padding: 30px 15px 15px 15px;
+    }
+}
+
+
+.form-control{
+    font-size: $tx-size-06;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px $gris;
+    height: 45px;
+    text-align: center;
+    @media screen and (max-width: $window-size-sm) {
+        font-size: $tx-size-06 - 2;
+    }
+}
+
+.list-unstyled{
+    font-family: $Roboto-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    color:$color06;
+    @media screen and (max-width: $window-size-sm) {
+        font-size: $tx-size-06 - 2;
+    }
+}
+
+#msgSubmit{
+    font-family: $Roboto-Regular;
+    font-size: $tx-size-06;
+    text-align: center;
+    color:$color06;
+    @media screen and (max-width: $window-size-sm) {
+        font-size: $tx-size-06 - 2;
+    }
+}

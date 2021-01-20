@@ -1,0 +1,58 @@
+/* SECTION 04 */
+.section-04{
+    padding: 70px 0px 50px 0px;
+    background: $color05;
+    @media screen and (max-width: $window-size-xl) {
+        padding: 50px 0px 35px 0px;
+    }
+    @media screen and (max-width: $window-size-lg) {
+        padding: 40px 0px 25px 0px;
+    }
+}
+
+.section-04 .tx-section-04-01{
+    font-family: $Lato-Bold;
+    font-size: $tx-size-01;
+    color: $color03;
+    padding: 0px 0px 30px 0px;
+    margin:0px 0px 70px 0px;
+    border-bottom: 1px solid $color04;
+    @media screen and (max-width: $window-size-xl) {
+        font-size: $tx-size-02;
+        padding: 0px 0px 20px 0px;
+        margin:0px 0px 60px 0px;
+    }
+    @media screen and (max-width: $window-size-lg) {
+        font-size: $tx-size-03;
+        padding: 0px 0px 15px 0px;
+        margin:0px 0px 50px 0px;
+    }
+}
+.section-04 .tx-section-04-02{
+    font-family: $Lato-Bold;
+    font-size: $tx-size-03;
+    color: $color03;
+    margin:70px 0px 20px 0px;
+    text-align: center;
+    @media screen and (max-width: $window-size-xl) {
+        margin:50px 0px 20px 0px;
+        font-size: $tx-size-04;
+    }
+    @media screen and (max-width: $window-size-lg) {
+        margin:35px 0px 20px 0px;
+        font-size: $tx-size-05;
+    }
+}
+
+.img-contacto-web{
+    margin-top: 60px;
+    @media screen and (max-width: $window-size-xl) {
+        margin-top: 30px;
+    }
+    @media screen and (max-width: $window-size-lg) {
+        margin-top: 80px;
+    }
+    @media screen and (max-width: $window-size-md) {
+        margin-top: 0px;
+    }
+}
