@@ -8,8 +8,8 @@
     <!-- Open Graph data -->
     <meta property="og:title" content="Anderson Forero | Portafolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://github.com/andersonfdragon/portafolio/" />
-    <meta property="og:image" content="https://github.com/andersonfdragon/portafolio/images/social-media-andersonfdragon.png" />
+    <meta property="og:url" content="https://andersonfdragon.github.io/portafolio/" />
+    <meta property="og:image" content="https://andersonfdragon.github.io/portafolio/images/social-media-andersonfdragon.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:description" content="Bienvenid@ a mi portafolio, soy Anderson Forero, estoy ubicado en Bogotá, Colombia y cuento con alta experiencia en creación y personalización de sitios web"/>
     <meta property="og:site_name" content="Anderson Forero | Portafolio" />
@@ -34,7 +34,8 @@
           <h3>¿Cómo puedo ayudarte? <span data-toggle="collapse" data-target="#menu-contacto-web" role="button" aria-expanded="false" aria-controls="menu-contacto-web">X</span></h3>
           <ul class="lista-menu-web">
             <li><a class="collapsar-menu-agil" target="_blank" href="https://api.whatsapp.com/send?phone=573152964119&text=Buen%20día,%20quiero%20saber%20más%20información%20acerca%20de%20tus%20servicios%20como%20diseñador%20y%20desarrollador%20de%20sitios%20web."><span><i class="fab fa-whatsapp"></i></span> Contactame por Whatsapp</a></li>
-            <li><a class="collapsar-menu-agil" href="#contacto"><span><i class="far fa-envelope"></i></span> Envíame un email</a></li>
+            <!-- <li><a class="collapsar-menu-agil" href="#contacto"><span><i class="far fa-envelope"></i></span> Envíame un correo</a></li> -->
+            <li><a class="collapsar-menu-agil" href="mailTo:anderson.forero344@gmail.com"><span><i class="far fa-envelope"></i></span> Envíame un correo</a></li>
           </ul>
         </div>
       </div>
@@ -62,7 +63,8 @@
             <a class="collapsar-menu-agil-xs nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=573152964119&text=Buen%20día,%20quiero%20saber%20más%20información%20acerca%20de%20tus%20servicios%20como%20diseñador%20y%20desarrollador%20de%20sitios%20web."><span><i class="fab fa-whatsapp"></i></span> Contactame por Whatsapp</a>
           </li>
           <li class="collapsar-menu-agil-xs lista-menu-xs">
-            <a class="nav-link" href="#contacto"><span><i class="far fa-envelope"></i></span> Envíame un email</a>
+            <!-- <a class="nav-link" href="#contacto"><span><i class="far fa-envelope"></i></span> Envíame un correo</a> -->
+            <a class="nav-link" href="mailTo:anderson.forero344@gmail.com"><span><i class="far fa-envelope"></i></span> Envíame un correo</a>
           </li>
 
         </ul>
@@ -104,11 +106,11 @@
                     <a class="interaction-portafolio-web nav-link">Portafolio</a> 
                   </li>
                   <li class="nav-item d-block d-sm-block d-md-none">
-                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                    <a id="ancla-nav" class="nav-link" href="#portafolio">Portafolio</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link cta-menu" href="#contacto">Contactame</a>
-                  </li>
+                  </li> -->
 
                 </ul>
 
@@ -132,7 +134,7 @@
             <div class="col-12 col-sm-11 col-md-10 col-lg-11 col-xl-10">
               <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                  <h3>Diseñador y Desarrollador<br>Front-end</h3>
+                  <h3>Diseñador y desarrollador web frontend</h3>
                   <h3>Bienvenid@ a mi portafolio, soy Anderson Forero, estoy ubicado en Bogotá, Colombia y cuento con <span>alta experiencia en creación y personalización de sitios web</span>.</h3>
                 </div>
 
@@ -145,7 +147,7 @@
 
             <div class="col-12 col-sm-11 col-md-10 col-lg-11 col-xl-10">
               <div class="content-button">
-                <a href="#habilidades" class="btn-portafolio-01">Conoce mis habilidades <span><i class="fas fa-chevron-down"></i></span></a>
+                <a id="click-ancla-main-index" href="#habilidades" class="btn-portafolio-01">Conoce mis habilidades <span><i class="fas fa-chevron-down"></i></span></a>
               </div>
             </div>
 
@@ -215,7 +217,7 @@
 
             <div class="col-12 col-sm-11 col-md-10 col-lg-11 col-xl-10">
               <div class="content-button">
-                <a href="#portafolio" class="btn-portafolio-02">Conoce mi portafolio<span><i class="fas fa-chevron-down"></i></span></a>
+                <a id="click-ancla-main-index-xs" href="#portafolio" class="btn-portafolio-02">Conoce mi portafolio<span><i class="fas fa-chevron-down"></i></span></a>
               </div>
             </div>
 
@@ -248,7 +250,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-01" class="collapse show" aria-labelledby="headingPortafolio-01">
+                      <div id="collapsePortafolio-01" class="collapse show" aria-labelledby="headingPortafolio-01" data-parent="#accordionPortafolioWeb">
 
                         <div class="accordion-portafolio card-body">
 
@@ -258,7 +260,7 @@
                             <h3>Es una empresa que vende pruebas psicotecnicas en la nube para el control y gestión del proceso de contratación de personal en otras compañías.
                             <br><br>
     
-                            Trabajé para esta empresa 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
+                            Trabajé para esta empresa por más de 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
                             <br><br>
                               
                             Los resultados fueron fascinantes y ayudaron a la compañía a darse a conocer a varias empresas colombianas.
@@ -295,7 +297,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-02" class="collapse" aria-labelledby="headingPortafolio-02">
+                      <div id="collapsePortafolio-02" class="collapse" aria-labelledby="headingPortafolio-02" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
 
                           <div class="content-card">
@@ -304,7 +306,7 @@
                             <h3>Es una empresa que se encarga de contratar personal de manera temporal para otras compañías.
                             <br><br>
   
-                            Trabajé para esta empresa 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
+                            Trabajé para esta empresa por más de 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
                             <br><br>
                               
                             Los resultados contribuyeron a elevar el índice de contratación en diferentes partes del país y a darse a conocer a varias empresas colombianas.
@@ -314,15 +316,10 @@
                             <a target="_blank" href="https://grupo-alianza.com">Ir a grupo-alianza.com</a>
                           </div>
                           
-                          <!-- <div class="content-card-02">
+                          <div class="content-card-02">
                             <h3 class="tx-tab-version">Versiones anteriores</h3>
-                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2/">v2.0</a>
-                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v1/pruebas-psicotecnicas.html">v1.0</a>
-                            
-                            <h3 class="tx-tab-version-02">Landing Pages</h3>
-                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-precios/superpromo.html">Superpromo</a>
-                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2-black-days/oferta">Black Days</a>
-                          </div> -->
+                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/ga-v1/">v1.0</a>
+                          </div>
 
                         </div>
                       </div>
@@ -340,7 +337,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-03" class="collapse" aria-labelledby="headingPortafolio-03">
+                      <div id="collapsePortafolio-03" class="collapse" aria-labelledby="headingPortafolio-03" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -389,7 +386,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-04" class="collapse" aria-labelledby="headingPortafolio-04">
+                      <div id="collapsePortafolio-04" class="collapse" aria-labelledby="headingPortafolio-04" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -429,7 +426,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-05" class="collapse" aria-labelledby="headingPortafolio-05">
+                      <div id="collapsePortafolio-05" class="collapse" aria-labelledby="headingPortafolio-05" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -470,7 +467,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-06" class="collapse" aria-labelledby="headingPortafolio-06">
+                      <div id="collapsePortafolio-06" class="collapse" aria-labelledby="headingPortafolio-06" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -512,7 +509,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-07" class="collapse" aria-labelledby="headingPortafolio-07">
+                      <div id="collapsePortafolio-07" class="collapse" aria-labelledby="headingPortafolio-07" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -554,7 +551,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-08" class="collapse" aria-labelledby="headingPortafolio-08">
+                      <div id="collapsePortafolio-08" class="collapse" aria-labelledby="headingPortafolio-08" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -595,7 +592,7 @@
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-09" class="collapse" aria-labelledby="headingPortafolio-09">
+                      <div id="collapsePortafolio-09" class="collapse" aria-labelledby="headingPortafolio-09" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
@@ -632,24 +629,63 @@
                       <div class="accordion-portafolio card-header" id="headingPortafolio-10">
                         <h2 class="mb-0">
                           <a class="btn-accordion-portafolio collapsed" type="button" data-toggle="collapse" href="#collapsePortafolio-10" aria-expanded="false" aria-controls="collapsePortafolio-10">
+                            Supplymedic <span><i class="fas fa-chevron-down"></i></span>
+                          </a>
+                        </h2>
+                      </div>
+                      <div id="collapsePortafolio-10" class="collapse" aria-labelledby="headingPortafolio-10" data-parent="#accordionPortafolioWeb">
+                        <div class="accordion-portafolio card-body">
+                          
+                          <div class="content-card">
+                            <h3>Supplymedic</h3>
+                            <img src="images/slider-item-portafolio-11.png" class="d-block img-fluid mx-auto" alt="tab 10">
+                            <h3>Es una empresa que vende diferentes productos de indumentaria médica y estética para el personal del sector de la salud.
+                            <br><br>
+                            Generar de manera dinámica enlaces para contacto por medio de la api de whatsapp fue un reto muy interesante.
+                            </h3>
+                            <h3>Herramientas utilizadas:</h3>
+                            <h3>Bootstrap 4, HTML5, CSS3, JavaScript, Jquery, PHP.</h3>
+                            <a target="_blank" href="https://supplymedic.com.co/">Ir a supplymedic.com.co</a>
+                          </div>
+                          
+                          <!-- <div class="content-card-02">
+                            <h3 class="tx-tab-version">Versiones anteriores</h3>
+                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2/">v2.0</a>
+                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v1/pruebas-psicotecnicas.html">v1.0</a>
+                            
+                            <h3 class="tx-tab-version-02">Landing Pages</h3>
+                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-precios/superpromo.html">Superpromo</a>
+                            <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2-black-days/oferta">Black Days</a>
+                          </div> -->
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-portafolio card">
+
+                      <div class="accordion-portafolio card-header" id="headingPortafolio-10">
+                        <h2 class="mb-0">
+                          <a class="btn-accordion-portafolio collapsed" type="button" data-toggle="collapse" href="#collapsePortafolio-11" aria-expanded="false" aria-controls="collapsePortafolio-11">
                             Dicontech <span><i class="fas fa-chevron-down"></i></span>
                           </a>
                         </h2>
                       </div>
-                      <div id="collapsePortafolio-10" class="collapse" aria-labelledby="headingPortafolio-10">
+                      <div id="collapsePortafolio-11" class="collapse" aria-labelledby="headingPortafolio-11" data-parent="#accordionPortafolioWeb">
                         <div class="accordion-portafolio card-body">
                           
                           <div class="content-card">
                             <h3>Dicontech</h3>
-                            <img src="images/slider-item-portafolio-10.png" class="d-block img-fluid mx-auto" alt="tab 10">
+                            <img src="images/slider-item-portafolio-10.png" class="d-block img-fluid mx-auto" alt="tab 11">
                             <h3>Es una empresa que presta diferentes servicios relacionados con diseño, remodelación y construcción de obras civiles.
                             <br><br>
   
-                            Trabajé para esta empresa 1 año como practicante, generando grandes vínculos profesionales y excelentes referencias personales..
+                            Trabajé para esta empresa 1 año como practicante, generando grandes vínculos profesionales y excelentes referencias personales.
                             </h3>
                             <h3>Herramientas utilizadas:</h3>
                             <h3>Bootstrap 3, HTML5, CSS3, JavaScript, Jquery, PHP.</h3>
-                            <a target="_blank" href="http://www.dicontech.com.co">Ir a dicontech.com.co</a>
+                            <a target="_blank" href="https://www.dicontech.com.co">Ir a dicontech.com.co</a>
                           </div>
                           
                           <!-- <div class="content-card-02">
@@ -670,7 +706,6 @@
 
 
 
-
                   </div>
                   
                 </div>
@@ -681,7 +716,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-none d-sm-none d-md-block">
 
                   <!-- <div id="sliderPortafolio-01" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000" data-pause="hover"> -->
-                  <div id="sliderPortafolio-01" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="false">
+                  <div id="sliderPortafolio-01" class="carousel slide" data-ride="carousel" data-interval="15000" data-pause="false">
 
                     <div class="slider-portafolio-01 carousel-inner">
                       <div class="carousel-item active">
@@ -699,7 +734,7 @@
                               <h3>Es una empresa que vende pruebas psicotecnicas en la nube para el control y gestión del proceso de contratación de personal en otras compañías.
                               <br><br>
 
-                              Trabajé para esta empresa 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
+                              Trabajé para esta empresa por más de 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
                               <br><br>
                                 
                               Los resultados fueron fascinantes y ayudaron a la compañía a darse a conocer a varias empresas colombianas.
@@ -726,7 +761,7 @@
                               <h3>Es una empresa que se encarga de contratar personal de manera temporal para otras compañías.
                               <br><br>
 
-                              Trabajé para esta empresa 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
+                              Trabajé para esta empresa por más de 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
                               <br><br>
                                 
                               Los resultados contribuyeron a elevar el índice de contratación en diferentes partes del país y a darse a conocer a varias empresas colombianas.
@@ -881,9 +916,12 @@
                   </p>
 
                   <p class="tab-portafolio nav-link" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="false">
-                    Dicontech
+                    Supplymedic
                   </p>
 
+                  <p class="tab-portafolio nav-link" id="v-pills-11-tab" data-toggle="pill" href="#v-pills-11" role="tab" aria-controls="v-pills-11" aria-selected="false">
+                    Dicontech
+                  </p>
 
                 </div>
               </div>
@@ -903,7 +941,7 @@
                           <h3>Es una empresa que vende pruebas psicotecnicas en la nube para el control y gestión del proceso de contratación de personal en otras compañías.
                           <br><br>
   
-                          Trabajé para esta empresa 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
+                          Trabajé para esta empresa por más de 1 año, generando grandes vínculos profesionales y excelentes referencias personales.
                           <br><br>
                             
                           Los resultados fueron fascinantes y ayudaron a la compañía a darse a conocer a varias empresas colombianas.
@@ -944,7 +982,7 @@
                           <h3>Es una empresa que se encarga de contratar personal de manera temporal para otras compañías.
                           <br><br>
 
-                          Trabajé para esta empresa 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
+                          Trabajé para esta empresa por más de 2 años, generando grandes vínculos profesionales y excelentes referencias personales.
                           <br><br>
                             
                           Los resultados contribuyeron a elevar el índice de contratación en diferentes partes del país y a darse a conocer a varias empresas colombianas.
@@ -955,19 +993,15 @@
                         </div>
                       </div>
 
-                      <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 sin-padding-left">
+                      <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 sin-padding-left">
 
                         <div class="content-tab-portafolio-02">
                           <h3 class="tx-tab-version">Versiones anteriores</h3>
-                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2/">v2.0</a>
-                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v1/pruebas-psicotecnicas.html">v1.0</a>
-                          
-                          <h3 class="tx-tab-version-02">Landing Pages</h3>
-                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-precios/superpromo.html">Superpromo</a>
-                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2-black-days/oferta">Black Days</a>
+                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/ga-v1/">v1.0</a>
+                        
                         </div>
 
-                      </div> -->
+                      </div>
                     </div>
 
                   </div>
@@ -1237,8 +1271,45 @@
 
                   </div>
 
-                  <!-- Dicontech -->
+                  <!-- Supplymedic-->
                   <div class="tab-pane fade" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">
+                    
+                    <div class="row">
+
+                      <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+                        <div class="content-tab-portafolio">
+                          <h3>Supplymedic</h3>
+                          <img src="images/slider-item-portafolio-11.png" class="d-block img-fluid mx-auto" alt="tab 10">
+                          <h3>Es una empresa que vende diferentes productos de indumentaria médica y estética para el personal del sector de la salud.
+                          <br><br>
+
+                          Generar de manera dinámica enlaces para contacto por medio de la api de whatsapp fue un reto muy interesante.
+                          </h3>
+                          <h3>Herramientas utilizadas:</h3>
+                          <h3>Bootstrap 4, HTML5, CSS3, JavaScript, Jquery, PHP.</h3>
+                          <a target="_blank" href="https://supplymedic.com.co/">Ir a supplymedic.com.co/</a>
+                        </div>
+                      </div>
+
+                      <!-- <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 sin-padding-left">
+
+                        <div class="content-tab-portafolio-02">
+                          <h3 class="tx-tab-version">Versiones anteriores</h3>
+                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2/">v2.0</a>
+                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v1/pruebas-psicotecnicas.html">v1.0</a>
+                          
+                          <h3 class="tx-tab-version-02">Landing Pages</h3>
+                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-precios/superpromo.html">Superpromo</a>
+                          <a class="enlace-version-tab" target="_blank" href="https://andersonfdragon.github.io/psa-v2-black-days/oferta">Black Days</a>
+                        </div>
+
+                      </div> -->
+                    </div>
+
+                  </div>
+
+                  <!-- Dicontech -->
+                  <div class="tab-pane fade" id="v-pills-11" role="tabpanel" aria-labelledby="v-pills-11-tab">
                     
                     <div class="row">
 
@@ -1249,11 +1320,11 @@
                           <h3>Es una empresa que presta diferentes servicios relacionados con diseño, remodelación y construcción de obras civiles.
                           <br><br>
 
-                          Trabajé para esta empresa 1 año como practicante, generando grandes vínculos profesionales y excelentes referencias personales..
+                          Trabajé para esta empresa 1 año como practicante, generando grandes vínculos profesionales y excelentes referencias personales.
                           </h3>
                           <h3>Herramientas utilizadas:</h3>
                           <h3>Bootstrap 3, HTML5, CSS3, JavaScript, Jquery, PHP.</h3>
-                          <a target="_blank" href="http://www.dicontech.com.co">Ir a dicontech.com.co</a>
+                          <a target="_blank" href="https://www.dicontech.com.co">Ir a dicontech.com.co</a>
                         </div>
                       </div>
 
@@ -1294,7 +1365,7 @@
 
 
     <!-- SECTION 04 -->
-    <div class="section-04" id="contacto">
+    <div class="section-04 d-none" id="contacto">
 
       <div class="container-fluid">
         <div class="row justify-content-center">
@@ -1378,7 +1449,8 @@
             <div class="row">
 
               <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                <img src="images/identidad-visual-andersonfdragon.png" alt="identidad visual andersonfdragon" class="d-block img-fluid mx-auto identidad-visual">
+                <!-- <img src="images/identidad-visual-andersonfdragon.png" alt="identidad visual andersonfdragon" class="d-block img-fluid mx-auto identidad-visual"> -->
+                <img src="images/identidad-visual-andersonfdragon-white.png" alt="identidad-visual-andersonfdragon-white" class="d-block img-fluid mx-auto identidad-visual">
                 <!-- <h3>@andersonfdragon</h3> -->
               </div>
 
@@ -1389,7 +1461,7 @@
 
                   <li class="d-block d-sm-block d-md-none"><a href="#scroll-top"><span><i class="fas fa-chevron-right"></i></span> Inicio</a></li>
                   <li class="d-block d-sm-block d-md-none"><a href="#portafolio"><span><i class="fas fa-chevron-right"></i></span> Portafolio</a></li>
-                  <li><a href="#contacto"><span><i class="fas fa-chevron-right"></i></span> Contactame</a></li>
+                  <!-- <li><a href="#contacto"><span><i class="fas fa-chevron-right"></i></span> Contactame</a></li> -->
                 </ul>
               </div>
 

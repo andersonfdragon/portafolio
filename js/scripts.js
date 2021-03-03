@@ -1,10 +1,40 @@
 // Anclas ID suavizadas
-$(document).on('click', 'a[href*=\\#]:not([href=\\#])', function (e) {
-  e.preventDefault();
+$("#ancla-nav").on('click', function() {
   $('html, body').stop().animate({
-      scrollTop: $($(this).attr('href')).offset().top
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 400, 'linear');
+  $("#navbarMenuPrincipal").collapse('hide')
+});
+$("#click-ancla-main-index").on('click', function() {
+  $('html, body').stop().animate({
+    scrollTop: $($(this).attr('href')).offset().top
   }, 400, 'linear');
 });
+$("#click-ancla-main-index-xs").on('click', function() {
+  $('html, body').stop().animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 400, 'linear');
+});
+
+
+
+$(".btn-accordion-portafolio").on('click', function(event) {
+  let eventTarget = $(event.target)
+  collapseAccordionsMobile(eventTarget)
+});
+
+function collapseAccordionsMobile(target) {
+  $('#collapsePortafolio-01, #collapsePortafolio-02, #collapsePortafolio-03, #collapsePortafolio-04, #collapsePortafolio-05, #collapsePortafolio-06, #collapsePortafolio-07, #collapsePortafolio-08, #collapsePortafolio-09, #collapsePortafolio-10, #collapsePortafolio-11').on('shown.bs.collapse', function () {
+    $('html, body').stop().animate({
+      scrollTop: $(target).offset().top
+    }, 400, 'linear');
+  });
+  $('#collapsePortafolio-01, #collapsePortafolio-02, #collapsePortafolio-03, #collapsePortafolio-04, #collapsePortafolio-05, #collapsePortafolio-06, #collapsePortafolio-07, #collapsePortafolio-08, #collapsePortafolio-09, #collapsePortafolio-10, #collapsePortafolio-11').on('hidden.bs.collapse', function () {
+    $('html, body').stop().animate({
+      scrollTop: $(target).offset().top
+    }, 400, 'linear');
+  });
+}
 
 //BARRA DE CARGA SCROLL
 window.onscroll = function() { myFunction() };

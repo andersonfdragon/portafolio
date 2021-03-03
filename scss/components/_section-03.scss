@@ -1,12 +1,12 @@
 /* SECCION 02 */
 .section-03{
-    padding: 70px 0px 50px 0px;
+    padding: 70px 0px 100px 0px;
     background: $gris;
     @media screen and (max-width: $window-size-xl) {
-        padding: 50px 0px 35px 0px;
+        padding: 50px 0px 80px 0px;
     }
     @media screen and (max-width: $window-size-lg) {
-        padding: 40px 0px 25px 0px;
+        padding: 40px 0px 70px 0px;
     }
 }
 
@@ -135,7 +135,7 @@
     // background: $color01;
     background: $gradient03;
     color: $blanco;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-family: $Roboto-Bold;
     font-size: $tx-size-06;
     text-align: center;
