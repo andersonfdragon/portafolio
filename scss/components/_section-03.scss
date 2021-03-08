@@ -234,4 +234,9 @@
     @media screen and (max-width: $window-size-xl) {
         font-size: $tx-size-06;
     }
+    @media screen and (max-width: $window-size-sm) {
+        font-size: $tx-size-06;
+        display: block;
+        text-align: center;
+    }
 }

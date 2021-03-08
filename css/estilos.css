@@ -454,7 +454,6 @@ header {
   margin: 5px 15px 5px 0px;
   outline: none;
   color: #FFF;
-  border: 1px solid #FFF;
   padding: 0.25rem 0.5rem;
 }
 .menu-portafolio.navbar-toggler span i {
@@ -523,7 +522,7 @@ header {
 }
 
 .progress-bar.bar-xs {
-  background-color: #0082A4;
+  background-color: #0A1129;
   border-radius: 0px 5px 5px 0px;
   height: 4px;
 }
@@ -538,7 +537,7 @@ header {
   border-radius: 0px;
   font-family: "Lato-Regular";
   color: #FFF;
-  background: linear-gradient(90deg, #003E79 0%, #0A1129 100%);
+  background: linear-gradient(90deg, #0082A4 0%, #003E79 100%);
   font-size: 1.7rem;
   text-align: center;
 }
@@ -1110,6 +1109,13 @@ header {
 @media screen and (max-width: 1650px) {
   .accordion-portafolio.card-body .content-card a {
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion-portafolio.card-body .content-card a {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
   }
 }
 

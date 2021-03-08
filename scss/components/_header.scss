@@ -36,7 +36,7 @@ header{
     margin: 5px 15px 5px 0px;
     outline: none;
     color: $blanco;
-    border: 1px solid $blanco;
+    // border: 1px solid $blanco;
     padding: .25rem .5rem;
     span i{
         font-size: 22px;
@@ -110,7 +110,8 @@ header{
   }
   .progress-bar.bar-xs{
     // background-color: #3B286C;
-    background-color: $color04;
+    // background-color: $color04;
+    background-color: $color01;
     border-radius:0px 5px 5px 0px;
     height: 4px;
   }
@@ -124,7 +125,8 @@ header{
     border-radius: 0px;
     font-family: $Lato-Regular;
     color:$blanco;
-    background: $gradient03;
+    // background: $gradient03;
+    background: $gradient04;
     font-size: $tx-size-05;
     text-align: center;
     span i{

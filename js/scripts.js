@@ -1,3 +1,26 @@
+// Change Icon Menu - Hamburguesa XS
+$("#btn-menu-xs").click(function () {
+  if ($("#navbarMenuPrincipal").hasClass("show")){
+    $('#icon-menu-drop').removeClass("fa-times")
+    $('#icon-menu-drop').addClass("fa-bars")
+  }
+  else{
+    $('#icon-menu-drop').removeClass("fa-bars")
+    $('#icon-menu-drop').addClass("fa-times")
+  }
+});
+
+$("#btn-menu-portafolio-xs").click(function () {
+  if ($("#navbarContactoAgilMobile").hasClass("show")){
+    $('#icon-menu-agil-drop').removeClass("fa-chevron-up")
+    $('#icon-menu-agil-drop').addClass("fa-chevron-down")
+  }
+  else{
+    $('#icon-menu-agil-drop').removeClass("fa-chevron-down")
+    $('#icon-menu-agil-drop').addClass("fa-chevron-up")
+  }
+});
+
 // Anclas ID suavizadas
 $("#ancla-nav").on('click', function() {
   $('html, body').stop().animate({
@@ -161,3 +184,159 @@ function submitForm(){
       }
   });
 }
+
+
+// SCRIPTS ACCORDIONS
+$( '#headingPortafolio-01' ).click(function() {
+  $('#icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-01").hasClass('show')) {
+    $('#icon-accordion-portafolio-01').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-01').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-01').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-01').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-02' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-02").hasClass('show')) {
+    $('#icon-accordion-portafolio-02').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-02').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-02').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-02').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-03' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-03").hasClass('show')) {
+    $('#icon-accordion-portafolio-03').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-03').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-03').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-03').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-04' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-04").hasClass('show')) {
+    $('#icon-accordion-portafolio-04').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-04').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-04').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-04').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-05' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-05").hasClass('show')) {
+    $('#icon-accordion-portafolio-05').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-05').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-05').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-05').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-06' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-06").hasClass('show')) {
+    $('#icon-accordion-portafolio-06').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-06').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-06').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-06').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-07' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-07").hasClass('show')) {
+    $('#icon-accordion-portafolio-07').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-07').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-07').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-07').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-08' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-08").hasClass('show')) {
+    $('#icon-accordion-portafolio-08').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-08').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-08').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-08').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-09' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-10, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-09").hasClass('show')) {
+    $('#icon-accordion-portafolio-09').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-09').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-09').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-09').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-10' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-11').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-10").hasClass('show')) {
+    $('#icon-accordion-portafolio-10').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-10').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-10').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-10').addClass('fa-chevron-up')
+  }
+})
+
+$( '#headingPortafolio-11' ).click(function() {
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10').removeClass('fa-chevron-up')
+
+  $('#icon-accordion-portafolio-01, #icon-accordion-portafolio-02, #icon-accordion-portafolio-03, #icon-accordion-portafolio-04, #icon-accordion-portafolio-05, #icon-accordion-portafolio-06, #icon-accordion-portafolio-07, #icon-accordion-portafolio-08, #icon-accordion-portafolio-09, #icon-accordion-portafolio-10').addClass('fa-chevron-down')
+
+  if($("#collapsePortafolio-11").hasClass('show')) {
+    $('#icon-accordion-portafolio-11').removeClass('fa-chevron-up')
+    $('#icon-accordion-portafolio-11').addClass('fa-chevron-down')
+  } else{
+    $('#icon-accordion-portafolio-11').removeClass('fa-chevron-down')
+    $('#icon-accordion-portafolio-11').addClass('fa-chevron-up')
+  }
+})
