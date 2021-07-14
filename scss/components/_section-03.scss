@@ -43,7 +43,7 @@
     margin: 30px 0px 0px 0px;
 }
 
-.content-slide h3:nth-child(1){
+.content-slide h3:nth-of-type(1){
     font-family: $Lato-Bold;
     font-size: $tx-size-03;
     color: $color02;
@@ -56,7 +56,7 @@
         font-size: $tx-size-05;
     }
 }
-.content-slide h3:nth-child(2){
+.content-slide h3:nth-of-type(2){
     font-family: $Roboto-Regular;
     font-size: $tx-size-05;
     color: $color01;
@@ -67,7 +67,7 @@
     }
 }
 
-.content-slide h3:nth-child(3){
+.content-slide h3:nth-of-type(3){
     font-family: $Lato-Bold;
     font-size: $tx-size-04;
     color: $color02;
@@ -79,7 +79,7 @@
         font-size: $tx-size-06;
     }
 }
-.content-slide h3:nth-child(4){
+.content-slide h3:nth-of-type(4){
     font-family: $Roboto-Regular;
     font-size: $tx-size-05;
     color: $color01;
@@ -165,7 +165,7 @@
     border-radius: 15px;
 }
 
-.accordion-portafolio.card-body .content-card h3:nth-child(1){
+.accordion-portafolio.card-body .content-card h3:nth-of-type(1){
     font-family: $Lato-Bold;
     font-size: $tx-size-03;
     color: $color02;
@@ -178,7 +178,7 @@
         font-size: $tx-size-05;
     }
 }
-.accordion-portafolio.card-body .content-card h3:nth-child(3){
+.accordion-portafolio.card-body .content-card h3:nth-of-type(2){
     font-family: $Roboto-Regular;
     font-size: $tx-size-05;
     color: $color01;
@@ -189,7 +189,7 @@
     }
 }
 
-.accordion-portafolio.card-body .content-card h3:nth-child(4){
+.accordion-portafolio.card-body .content-card h3:nth-of-type(3){
     font-family: $Lato-Bold;
     font-size: $tx-size-04;
     color: $color02;
@@ -201,7 +201,7 @@
         font-size: $tx-size-06;
     }
 }
-.accordion-portafolio.card-body .content-card h3:nth-child(5){
+.accordion-portafolio.card-body .content-card h3:nth-of-type(4){
     font-family: $Roboto-Regular;
     font-size: $tx-size-05;
     color: $color01;

@@ -118,7 +118,7 @@ a{
     &.card-body{
       font-size: $tx-size-05;
     }
-    h3:nth-child(1){
+    h3:nth-of-type(1){
       position: relative;
       color: $color04;
       text-align: center;

@@ -14,7 +14,7 @@
     }
 }
 
-.section-01 h3:nth-child(1){
+.section-01 h3:nth-of-type(1){
     font-family: $Lato-Bold;
     font-size: $tx-size-01;
     color: $blanco;
@@ -41,7 +41,7 @@
         margin:0px 0px 20px 0px;
     }
 }
-.section-01 h3:nth-child(2){
+.section-01 h3:nth-of-type(2){
     font-family: $Lato-Regular;
     font-size: $tx-size-04;
     line-height: 1.5;
